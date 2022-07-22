@@ -54,6 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="48dp"
         android:gravity="center"
+        android:onClick="openText"
         android:text="@string/b_write"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
