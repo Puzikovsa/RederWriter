@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         FileOutputStream fos = null;
 
         try {
-            EditText textBox =(EditText) findViewById(R.id.reader);
+            EditText textBox = findViewById(R.id.reader);
             String text = textBox.getText().toString();
 
             fos = openFileOutput(FILE_NAME, MODE_PRIVATE);
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void openText(View view){
         FileInputStream fin = null;
-        TextView textView = (TextView) findViewById(R.id.tv_write);
+        TextView textView = findViewById(R.id.tv_write);
 
         try {
             fin = openFileInput(FILE_NAME);
