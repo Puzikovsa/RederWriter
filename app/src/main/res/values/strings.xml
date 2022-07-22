@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ReaderWriter</string>
     <string name="et_reader">Введите текст</string>
-    <string name="b_read">Записать</string>
+    <string name="b_read">Сохранитьь</string>
     <string name="tv_write">Прочитанный текст</string>
     <string name="b_write">Прочитать</string>
 </resources>
