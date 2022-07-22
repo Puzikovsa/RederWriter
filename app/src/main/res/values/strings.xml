@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ReaderWriter</string>
+    <string name="et_reader">Введите текст</string>
+    <string name="b_read">Записать</string>
+</resources>
